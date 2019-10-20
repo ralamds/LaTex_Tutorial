@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+
+% Preambulo
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\parindent = 0cm
+
+\usepackage{amsmath}
+\usepackage{amssymb, amsfonts, latexsym}
+\usepackage{cancel}
+
+
+\begin{document}
+
+\title{Practica 3 \\ Modo Matemático, Ecuaciones, Formulas}
+\author{Rakibul Alam}
+\date{}
+\maketitle
+\tableofcontents
+
+\section{Texto en modo matemático}
+Básicamente hay 2 formas de colocar texto en modo matemáticos               
+LaTex, 1. Colocar formulas junto al texto. 2. Colocar de forma independiente. 
+
+\subsection{Formulas junto al texto}
+\textbf{Cuadro de binomio.} Sea $ (a+b)^{2} = (a+b) (a+b) $ donde $a$ y $b$ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto $ (a+b)^{2} = a^{2} + 2ab + b^{2} $.  
+
+\subsection{Formulas independientes}
+
+\textbf{Cuadro de binomio.} Sea 
+\[
+(a+b)^{2} = (a+b) (a+b)
+\]
+donde $a$ y $b$ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto 
+\[
+(a+b)^{2} = a^{2} + 2ab + b^{2} 
+\]
+
+\begin{equation*}
+(a+b)^{2} = a^{2} + 2ab + b^{2}
+\end{equation*}
+
+\subsection{Numeracion de formulas y referencias}
+El comando para numerar una formula es el: 
+\begin{equation}\label{binomio uno}
+(a+b)^{2} = a^{2} + 2ab + b^{2}
+\end{equation}
+Haaha here u get some tex. 
+\begin{equation}\label{binomio dos}
+(x+y)^{2} = x^{2} + 2xy + y^{2}
+\end{equation}
+
+Aqui usamos las referencias \ref{binomio uno} y \ref{binomio dos} \\
+Aqui usamos las referencias \eqref{binomio uno} y \eqref{binomio dos}
+
+\subsection{Alinear ecuaciones con el comando align}
+\begin{align}
+x = a+b \\
+y = 3c+d \\
+z = 4e+5f
+\end{align}
+
+\begin{align*}
+x &= a+b \\
+y &= 2c+d \\
+z &= 3e+4f
+\end{align*}
+
+\begin{align}
+x &= a+b &  x &= a+b \nonumber \\
+y &= 2c+d  & y &= 2c+d \\
+z &= 3e+4f & z &= 3e+4f
+\end{align}
+
+\subsection{Fracciones}
+\begin{itemize}
+\item Junto a texto $ \frac{x}{y} $
+\item Junto a texto $ \dfrac{x}{y} $
+\item No junto a texto 
+\[
+\frac{x}{y}
+\]
+
+\end{itemize}
+
+\subsection{Potencias, subindices, superindice}
+
+\begin{itemize}
+\item $ x^{6} $
+\item $ z_{3}$
+\item $ a^{b^{c}}$ 
+\end{itemize}
+
+\subsection{Raices}
+\begin{itemize}
+\item $ \sqrt{a+b}$
+\item $ \sqrt[n]{a+c} $
+\item \[   \sqrt[n]{c+d}   \]
+\end{itemize}
+
+\subsection{Coeficientes binomiales}
+
+\begin{itemize}
+\item junto a texto $\binom{n}{k} $
+\item \[   \binom{n}{k}  \]
+
+\end{itemize}
+
+
+
+\end{document}
+
