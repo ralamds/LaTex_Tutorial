@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Texto}{5}% 
+\contentsline {section}{\numberline {1.1}Tipos y tamanos de fuente}{5}% 
+\contentsline {subsection}{\numberline {1.1.1}Tipos de letra}{5}% 
+\contentsline {subsection}{\numberline {1.1.2}Tamanos de letra}{5}% 
+\contentsline {section}{\numberline {1.2}Parrafos, sangra y saltos de linea.}{6}% 
+\contentsline {subsection}{\numberline {1.2.1}Sangria}{6}% 
+\contentsline {subsection}{\numberline {1.2.2}Salto de linea y nuava pagina}{6}% 
+\contentsline {subsection}{\numberline {1.2.3}Alineacion de parrafos}{6}% 
+\contentsline {subsection}{\numberline {1.2.4}Comillas y puntos suspensivos. }{7}% 
+\contentsline {subsection}{\numberline {1.2.5}Espacio horizontal}{7}% 
+\contentsline {subsection}{\numberline {1.2.6}Lineas de relleno}{7}% 

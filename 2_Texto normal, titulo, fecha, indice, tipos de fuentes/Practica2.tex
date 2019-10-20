@@ -1,0 +1,89 @@
+\documentclass[12pt]{book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%%
+%\parindent = 0cm
+\begin{document}
+\title{Practica 2.\\ Texto normal, párrafos y alineación }
+\author{Héctor Misael}
+\date{}
+\maketitle
+\tableofcontents
+\chapter{Texto}
+\section{Tipos y tamaños de fuente}
+Iniciamos con la segunda practica de este tutorial, colocando el titulo autor y dia. Esta es la primera sección donde conoceremos algunos tipos de letra, asi como los diferentes tamaños de letra que posemos usar.
+\subsection{Tipos de letra}
+\begin{itemize}
+\item Tipo de letra \textbf{negrita}
+\item Tipo de letra \textit{itálica}
+\item Tipo de letra \textrm{romana}
+\item Tipo de letra \textsf{sans serif}
+\item Tipo de letra \texttt{mono espaciada}
+\item Tipo de letra \textsl{inclinada}
+\item Tipo de letra \textsc{versalitas}
+\end{itemize}
+
+\newpage
+
+\subsection{Tamaños de letra}
+\begin{itemize}
+\item {\tiny Tamaño} de letra
+\item {\scriptsize Tamaño} de letra
+\item {\footnotesize Tamaño} de letra
+\item {\small Tamaño} de letra
+\item {\normalsize Tamaño} de letra
+\item {\large Tamaño} de letra
+\item {\Large Tamaño} de letra
+\item {\LARGE Tamaño} de letra
+\item {\huge Tamaño} de letra
+\item {\Huge Tamaño} de letra
+\end{itemize}
+
+\section{Párrafos, sangría y saltos de linea.}
+\subsection{Sangría}
+\noindent Esta es la primera sección donde conoceremos algunos tipos de letra, así como los diferentes tamaños de letra que posemos usar. Y ahora queremos también decidir y modificar la sangria en el documento, aqui si iniciamos con sangría.
+
+\noindent Pero esta otra linea queremos que no tenga sangria
+
+Pero esta otra linea queremos que si tenga sangria
+\subsection{Salto de linea y nueva pagina}
+Ahora queremos también decidir y modificar la sangria en el documento, aquí si iniciamos con sangría.\\
+Pero esta otra linea queremos que no tenga sangría\par 
+Esta linea queremos que si tenga sangría y ademas un espacio mayor.\\[0mm]
+Pero esta otra linea queremos que no tenga sangría.
+\subsection{Alineación de párrafos}
+\begin{flushleft}
+Texto a la izquierda
+\end{flushleft}
+
+\begin{center}
+Texto centrado
+\end{center}
+
+\begin{flushright}
+Texto a la derecha
+\end{flushright}
+
+\subsection{Comillas y puntos suspensivos}
+Este es un ejemplo: ``para las comillas'',  ` simples ', y las comillas dobles ``dobles''.\\
+Y tambien los puntos suspensivos \dots
+
+\subsection{Espaciado horizontal}
+\noindent Inicio \, fin\\[0.2cm]
+Inicio \quad fin\\[0.2cm]
+Inicio \qquad fin\\[0.2cm]
+Inicio \hspace{3cm} fin\\[0.2cm]
+Inicio \hspace{5cm} fin\\[0.2cm]
+Inicio \hfill fin\\[0.2cm]
+\subsection{Lineas de relleno}
+\noindent Inicio \hfill fin\\[0.5cm]
+Inicio \hrulefill fin\\[0.5cm]
+Inicio \dotfill fin
+
+\end{document}
+
+
