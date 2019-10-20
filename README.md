@@ -4,7 +4,7 @@ Notes that I have taken from the youtube playlist:
 
 https://www.youtube.com/playlist?list=PLKRmVEXGjGWc3IIKmo_0F1gxyNggVzdsI
 
-* Video List (Original video is in Spanish)
+* Video List (Original video is in Spanish) (**Total Duration: 0 days, 9 hours, 19 minutes and 38 seconds**)
 1. Tutorial 0 - Instalación de Miktex y Texmaker Windows 8 y 10 
 2. Tutorial 1 - Elementos básicos para escribir un libro, acentos
 3. Tutorial 2 - Texto normal, titulo, fecha, indice, tipos de fuentes 
