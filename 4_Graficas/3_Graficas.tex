@@ -1,0 +1,74 @@
+% Graficas 
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb, amsfonts, latexsym, cancel}
+\usepackage{graphicx}
+
+
+\parindent=0cm
+
+\begin{document}
+\title{Practica 4 \\ Gráficas}
+\author{Rakibul Alam}
+\date{}
+\maketitle
+
+\tableofcontents
+
+\section{Incluir gráficas externas}
+
+En \LaTeX podemos incluir figuras externas o generadas directamente en \LaTeX \, utilizando algun paquete, algunos de los formatos que podemos utilizar son \textbf{.jpg}, \textbf{.png}, \textbf{.eps} y  \textbf{.pdf}. \\[0.5cm]
+Los formatos vectoriales como los son \textbf{.eps} y \textbf{.pdf} son los mas recomendados cuando hacemos graficas en las cuales queremos observar detalles y precision, porque no pierden calidad al aumentar o disminuir su tamano. Y para imagenes en general podemos utilizar los formatos \textbf{.jpg} o \textbf{.png}
+
+
+
+\section{Paquetes graphicx}
+\begin{center}
+\includegraphics[scale=.2]{figuras/tree.jpg}
+\end{center}
+
+\begin{itemize}
+\item scale: Escala de la imagen
+\item width: Ancho deseado de la imagen en cm. 
+\item height: Altura de la imagen en cm. 
+\end{itemize}
+
+\begin{center}
+\includegraphics[scale=.3]{figuras/tree.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width = 4cm]{figuras/tree.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[height = 5cm]{figuras/tree.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=.1]{figuras/tree.jpg} \quad
+\includegraphics[scale=.15]{figuras/tree.jpg} \quad
+\includegraphics[scale=.2]{figuras/tree.jpg} \quad
+\includegraphics[scale=.25]{figuras/tree.jpg}
+\end{center}
+
+%\newpage
+\section{Objetos flotantes}
+
+% [!ht] = put the image on the top of the page. 
+% [!hb] = put the image on the bottom of the page.
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[scale=0.1]{figuras/tree.jpg}
+\caption{Imagen a escala 0.1}
+\label{figura1}
+\end{figure}
+
+
+
+\end{document}
