@@ -2,7 +2,7 @@
  
 Notes that I have taken from the youtube playlist:
 
-Youtube Channel: (Héctor Misael Bacilio Navarro)[https://www.youtube.com/playlist?list=PLKRmVEXGjGWc3IIKmo_0F1gxyNggVzdsI]
+Youtube Channel: [Héctor Misael Bacilio Navarro](https://www.youtube.com/playlist?list=PLKRmVEXGjGWc3IIKmo_0F1gxyNggVzdsI)
 
 * Video List (Original video is in Spanish) (Total Duration: 9 hours, 19 minutes)
 1. Tutorial 0 - Instalación de Miktex y Texmaker Windows 8 y 10 
