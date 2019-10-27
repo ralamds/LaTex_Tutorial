@@ -7,7 +7,9 @@
 \usepackage{amsmath}
 \usepackage{amssymb, amsfonts, latexsym, cancel}
 \usepackage{graphicx}
-
+\usepackage{epstopdf}
+\usepackage{float} %Deja el imagen en donde queramos/escribimos. 
+\usepackage{subfigure}
 
 \parindent=0cm
 
@@ -69,6 +71,51 @@ Los formatos vectoriales como los son \textbf{.eps} y \textbf{.pdf} son los mas 
 \label{figura1}
 \end{figure}
 
+\begin{itemize}
+\item t: La imagen en la parte superior (top)
+\item b: La imagen en la parte inferior (bottom)
+\item h: La imagen en el sitio que escribimos (here) 
+\end{itemize}
+
+\begin{figure}[H]
+\includegraphics[scale=2]{figuras/epsimg.eps}
+\caption{Imagen eps}
+\label{figura2}
+\end{figure}
+
+
+Aqui estoy hablando de imagenes eps como ea figura \ref{figura2}
+
+\newpage
+\subsection{Paquete subfigure}
+
+
+\begin{figure}[!ht]
+\centering
+\subfigure[Figura uno]
+{\includegraphics[scale=0.1]{figuras/tree.jpg}}
+\quad
+\centering
+\subfigure[Figura dos]
+{\includegraphics[scale=0.1]{figuras/tree.jpg}}
+\quad
+\centering
+\subfigure[Figura tres]
+{\includegraphics[scale=0.1]{figuras/tree.jpg}}
+\caption{Las tree figuras}
+\label{3fig}
+\end{figure}
+
+Aqui doy ref a los 3 figuras \eqref{3fig}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=3]{figuras/epsimg.eps}
+\put(0, 0){\footnotesize{Usando el comando put}}
+
+\caption{Imagen eps}
+\label{figura4}
+\end{figure}
 
 
 \end{document}

@@ -2,3 +2,4 @@
 \contentsline {section}{\numberline {1}Incluir gr\IeC {\'a}ficas externas}{1}% 
 \contentsline {section}{\numberline {2}Paquetes graphicx}{2}% 
 \contentsline {section}{\numberline {3}Objetos flotantes}{3}% 
+\contentsline {subsection}{\numberline {3.1}Paquete subfigure}{5}% 

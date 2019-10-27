@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb, amsfonts, latexsym, cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+
+\parindent=0cm
+
+%----------Document--Begin--Here------------%
+
+\begin{document}
+
+\title{Practica 5\\Tablas}
+\author{Rakibul Alam}
+\date{27-20-2019}
+\maketitle
+\tableofcontents
+
+%--------End of front page------------------
+
+\section{Incluir tablas básicas}
+En \LaTeX \, la forma basica en la que podemos incluir tablas es usando el entorno \textbf{tabular}, su sintaxis es la siguiente:\\[0.3cm]
+\noindent \textbf{Formato de las columnas:}
+\begin{itemize}
+\item l (alineado a la izquierda)
+\item c (alineado a la centrada
+\item r (alineado a la derecha)
+\end{itemize}
+
+\begin{itemize}
+\item $\& $ caracter que se utiliza para separar columnas.
+\end{itemize}
+
+Nuestra primera tabla. \quad
+\begin{tabular}{lcr}
+Lunes & Martes & Miercules \\
+0 	  &		 0 & 	0\\
+1	  &     1  & 1  \\
+\end{tabular}
+
+\newpage
+
+\subsection{Entorno table - tablas con lineas}
+
+\begin{table}[!ht]
+\centering
+
+\begin{tabular}{ll}
+t: & La imagen en la parte superior (top)\\
+b: & La imagen en la parte inferior (bottom)\\
+h: & La imagen en el sitio que escribimos (here)
+\end{tabular}
+\caption{Descripcion del entorno table}
+\label{Tabla1}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{lc}
+\includegraphics[scale=.2]{•}
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+

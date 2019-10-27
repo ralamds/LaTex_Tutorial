@@ -1,0 +1,3 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Incluir tablas b\IeC {\'a}sicas}{1}% 
+\contentsline {subsection}{\numberline {1.1}Entorno table - tablas con lineas}{2}% 
