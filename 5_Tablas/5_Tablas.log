@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.10)  27 OCT 2019 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.10)  27 OCT 2019 20:30
 entering extended mode
 **./5_Tablas.tex
 (5_Tablas.tex
@@ -302,19 +302,28 @@ LaTeX Info: Redefining \% on input line 1.
 
  [1
 
-{C:/Users/Rakibul_Alam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-(5_Tablas.aux
+{C:/Users/Rakibul_Alam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<5figuras/wiki.png, id=12, 1204.5pt x 1099.10625pt>
+File: 5figuras/wiki.png Graphic file (type png)
+<use 5figuras/wiki.png>
+Package pdftex.def Info: 5figuras/wiki.png  used on input line 66.
+(pdftex.def)             Requested size: 60.22852pt x 54.95853pt.
+File: 5figuras/wiki.png Graphic file (type png)
+<use 5figuras/wiki.png>
+Package pdftex.def Info: 5figuras/wiki.png  used on input line 67.
+(pdftex.def)             Requested size: 60.22852pt x 54.95853pt.
+ [2 <./5figuras/wiki.png>] (5_Tablas.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 3807 strings out of 492895
- 49975 string characters out of 3133457
+ 3815 strings out of 492895
+ 50145 string characters out of 3133457
  123753 words of memory out of 3000000
- 7638 multiletter control sequences out of 15000+200000
+ 7643 multiletter control sequences out of 15000+200000
  17684 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,31p,322b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,31p,322b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Rakibul_Alam\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecbx1440.pk> <C:\Users\Rakibul_Alam\AppData\Local\MiKTeX\2.9\fonts/pk/l
 jfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Rakibul_Alam\AppData\Local\MiKT
@@ -325,9 +334,9 @@ x1728.pk> <C:\Users\Rakibul_Alam\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecrm1440.pk> <C:\Users\Rakibul_Alam\AppData\Local\MiKTeX\2.9\font
 s/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb>
-Output written on 5_Tablas.pdf (2 pages, 52575 bytes).
+Output written on 5_Tablas.pdf (2 pages, 432241 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
